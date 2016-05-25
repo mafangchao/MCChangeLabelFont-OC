@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819456E31CF58AB300D34A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 819456E21CF58AB300D34A89 /* main.m */; };
+		819456E61CF58AB300D34A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 819456E51CF58AB300D34A89 /* AppDelegate.m */; };
+		819456E91CF58AB300D34A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819456E81CF58AB300D34A89 /* ViewController.m */; };
+		819456EC1CF58AB300D34A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819456EA1CF58AB300D34A89 /* Main.storyboard */; };
+		819456EE1CF58AB300D34A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819456ED1CF58AB300D34A89 /* Assets.xcassets */; };
+		819456F11CF58AB300D34A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819456EF1CF58AB300D34A89 /* LaunchScreen.storyboard */; };
+		819456FC1CF58AB300D34A89 /* MCChangeLabelFont_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 819456FB1CF58AB300D34A89 /* MCChangeLabelFont_OCTests.m */; };
+		819457071CF58AB300D34A89 /* MCChangeLabelFont_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 819457061CF58AB300D34A89 /* MCChangeLabelFont_OCUITests.m */; };
+		819457161CF58ACA00D34A89 /* UILabel+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 819457151CF58ACA00D34A89 /* UILabel+ChangeFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819456F81CF58AB300D34A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819456D61CF58AB300D34A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819456DD1CF58AB300D34A89;
+			remoteInfo = "MCChangeLabelFont-OC";
+		};
+		819457031CF58AB300D34A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819456D61CF58AB300D34A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819456DD1CF58AB300D34A89;
+			remoteInfo = "MCChangeLabelFont-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		819456DE1CF58AB300D34A89 /* MCChangeLabelFont-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCChangeLabelFont-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819456E21CF58AB300D34A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		819456E41CF58AB300D34A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		819456E51CF58AB300D34A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		819456E71CF58AB300D34A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		819456E81CF58AB300D34A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		819456EB1CF58AB300D34A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		819456ED1CF58AB300D34A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819456F01CF58AB300D34A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819456F21CF58AB300D34A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819456F71CF58AB300D34A89 /* MCChangeLabelFont-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCChangeLabelFont-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819456FB1CF58AB300D34A89 /* MCChangeLabelFont_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCChangeLabelFont_OCTests.m; sourceTree = "<group>"; };
+		819456FD1CF58AB300D34A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819457021CF58AB300D34A89 /* MCChangeLabelFont-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCChangeLabelFont-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819457061CF58AB300D34A89 /* MCChangeLabelFont_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCChangeLabelFont_OCUITests.m; sourceTree = "<group>"; };
+		819457081CF58AB300D34A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819457141CF58ACA00D34A89 /* UILabel+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeFont.h"; sourceTree = "<group>"; };
+		819457151CF58ACA00D34A89 /* UILabel+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeFont.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819456DB1CF58AB300D34A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819456F41CF58AB300D34A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819456FF1CF58AB300D34A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819456D51CF58AB300D34A89 = {
+			isa = PBXGroup;
+			children = (
+				819456E01CF58AB300D34A89 /* MCChangeLabelFont-OC */,
+				819456FA1CF58AB300D34A89 /* MCChangeLabelFont-OCTests */,
+				819457051CF58AB300D34A89 /* MCChangeLabelFont-OCUITests */,
+				819456DF1CF58AB300D34A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819456DF1CF58AB300D34A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819456DE1CF58AB300D34A89 /* MCChangeLabelFont-OC.app */,
+				819456F71CF58AB300D34A89 /* MCChangeLabelFont-OCTests.xctest */,
+				819457021CF58AB300D34A89 /* MCChangeLabelFont-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819456E01CF58AB300D34A89 /* MCChangeLabelFont-OC */ = {
+			isa = PBXGroup;
+			children = (
+				819456E41CF58AB300D34A89 /* AppDelegate.h */,
+				819456E51CF58AB300D34A89 /* AppDelegate.m */,
+				819456E71CF58AB300D34A89 /* ViewController.h */,
+				819456E81CF58AB300D34A89 /* ViewController.m */,
+				819457141CF58ACA00D34A89 /* UILabel+ChangeFont.h */,
+				819457151CF58ACA00D34A89 /* UILabel+ChangeFont.m */,
+				819456EA1CF58AB300D34A89 /* Main.storyboard */,
+				819456ED1CF58AB300D34A89 /* Assets.xcassets */,
+				819456EF1CF58AB300D34A89 /* LaunchScreen.storyboard */,
+				819456F21CF58AB300D34A89 /* Info.plist */,
+				819456E11CF58AB300D34A89 /* Supporting Files */,
+			);
+			path = "MCChangeLabelFont-OC";
+			sourceTree = "<group>";
+		};
+		819456E11CF58AB300D34A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				819456E21CF58AB300D34A89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		819456FA1CF58AB300D34A89 /* MCChangeLabelFont-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				819456FB1CF58AB300D34A89 /* MCChangeLabelFont_OCTests.m */,
+				819456FD1CF58AB300D34A89 /* Info.plist */,
+			);
+			path = "MCChangeLabelFont-OCTests";
+			sourceTree = "<group>";
+		};
+		819457051CF58AB300D34A89 /* MCChangeLabelFont-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819457061CF58AB300D34A89 /* MCChangeLabelFont_OCUITests.m */,
+				819457081CF58AB300D34A89 /* Info.plist */,
+			);
+			path = "MCChangeLabelFont-OCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819456DD1CF58AB300D34A89 /* MCChangeLabelFont-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8194570B1CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OC" */;
+			buildPhases = (
+				819456DA1CF58AB300D34A89 /* Sources */,
+				819456DB1CF58AB300D34A89 /* Frameworks */,
+				819456DC1CF58AB300D34A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCChangeLabelFont-OC";
+			productName = "MCChangeLabelFont-OC";
+			productReference = 819456DE1CF58AB300D34A89 /* MCChangeLabelFont-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819456F61CF58AB300D34A89 /* MCChangeLabelFont-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8194570E1CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OCTests" */;
+			buildPhases = (
+				819456F31CF58AB300D34A89 /* Sources */,
+				819456F41CF58AB300D34A89 /* Frameworks */,
+				819456F51CF58AB300D34A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819456F91CF58AB300D34A89 /* PBXTargetDependency */,
+			);
+			name = "MCChangeLabelFont-OCTests";
+			productName = "MCChangeLabelFont-OCTests";
+			productReference = 819456F71CF58AB300D34A89 /* MCChangeLabelFont-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819457011CF58AB300D34A89 /* MCChangeLabelFont-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819457111CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OCUITests" */;
+			buildPhases = (
+				819456FE1CF58AB300D34A89 /* Sources */,
+				819456FF1CF58AB300D34A89 /* Frameworks */,
+				819457001CF58AB300D34A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819457041CF58AB300D34A89 /* PBXTargetDependency */,
+			);
+			name = "MCChangeLabelFont-OCUITests";
+			productName = "MCChangeLabelFont-OCUITests";
+			productReference = 819457021CF58AB300D34A89 /* MCChangeLabelFont-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819456D61CF58AB300D34A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iOS;
+				TargetAttributes = {
+					819456DD1CF58AB300D34A89 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					819456F61CF58AB300D34A89 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 819456DD1CF58AB300D34A89;
+					};
+					819457011CF58AB300D34A89 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 819456DD1CF58AB300D34A89;
+					};
+				};
+			};
+			buildConfigurationList = 819456D91CF58AB300D34A89 /* Build configuration list for PBXProject "MCChangeLabelFont-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819456D51CF58AB300D34A89;
+			productRefGroup = 819456DF1CF58AB300D34A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819456DD1CF58AB300D34A89 /* MCChangeLabelFont-OC */,
+				819456F61CF58AB300D34A89 /* MCChangeLabelFont-OCTests */,
+				819457011CF58AB300D34A89 /* MCChangeLabelFont-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819456DC1CF58AB300D34A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819456F11CF58AB300D34A89 /* LaunchScreen.storyboard in Resources */,
+				819456EE1CF58AB300D34A89 /* Assets.xcassets in Resources */,
+				819456EC1CF58AB300D34A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819456F51CF58AB300D34A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819457001CF58AB300D34A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819456DA1CF58AB300D34A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819456E91CF58AB300D34A89 /* ViewController.m in Sources */,
+				819457161CF58ACA00D34A89 /* UILabel+ChangeFont.m in Sources */,
+				819456E61CF58AB300D34A89 /* AppDelegate.m in Sources */,
+				819456E31CF58AB300D34A89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819456F31CF58AB300D34A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819456FC1CF58AB300D34A89 /* MCChangeLabelFont_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819456FE1CF58AB300D34A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819457071CF58AB300D34A89 /* MCChangeLabelFont_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819456F91CF58AB300D34A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819456DD1CF58AB300D34A89 /* MCChangeLabelFont-OC */;
+			targetProxy = 819456F81CF58AB300D34A89 /* PBXContainerItemProxy */;
+		};
+		819457041CF58AB300D34A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819456DD1CF58AB300D34A89 /* MCChangeLabelFont-OC */;
+			targetProxy = 819457031CF58AB300D34A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819456EA1CF58AB300D34A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819456EB1CF58AB300D34A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819456EF1CF58AB300D34A89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819456F01CF58AB300D34A89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819457091CF58AB300D34A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8194570A1CF58AB300D34A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8194570C1CF58AB300D34A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MCChangeLabelFont-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8194570D1CF58AB300D34A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MCChangeLabelFont-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8194570F1CF58AB300D34A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MCChangeLabelFont-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCChangeLabelFont-OC.app/MCChangeLabelFont-OC";
+			};
+			name = Debug;
+		};
+		819457101CF58AB300D34A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MCChangeLabelFont-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCChangeLabelFont-OC.app/MCChangeLabelFont-OC";
+			};
+			name = Release;
+		};
+		819457121CF58AB300D34A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MCChangeLabelFont-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MCChangeLabelFont-OC";
+			};
+			name = Debug;
+		};
+		819457131CF58AB300D34A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MCChangeLabelFont-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machao.MCChangeLabelFont-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MCChangeLabelFont-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819456D91CF58AB300D34A89 /* Build configuration list for PBXProject "MCChangeLabelFont-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819457091CF58AB300D34A89 /* Debug */,
+				8194570A1CF58AB300D34A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8194570B1CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8194570C1CF58AB300D34A89 /* Debug */,
+				8194570D1CF58AB300D34A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8194570E1CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8194570F1CF58AB300D34A89 /* Debug */,
+				819457101CF58AB300D34A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		819457111CF58AB300D34A89 /* Build configuration list for PBXNativeTarget "MCChangeLabelFont-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819457121CF58AB300D34A89 /* Debug */,
+				819457131CF58AB300D34A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 819456D61CF58AB300D34A89 /* Project object */;
+}
